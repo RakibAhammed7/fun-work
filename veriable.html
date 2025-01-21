@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variable</title>
+<style>
+    :root{
+        --primary-color:rgb(254, 30, 0);
+        --secondary-color: blue;
+        font-size: 20px;
+    }
+    h1 { 
+        color: var(--primary-color);
+       
+    }
+
+    h5{ background-color: var(--primary-color);
+    }
+
+    .box{
+         border: 2px solid steelblue ;
+         width: calc(100% - 300px);
+    }
+
+    .box p { 
+        color: var(--primary-color);
+        ;
+    }
+
+</style>
+
+</head>
+<body>
+    <h1>My Custom Properties</h1>
+    <h5>Also commonly known as CSS veriable</h5>
+    <div class="box">
+        <h3>I am doing something</h3>
+        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed a deserunt consectetur adipisci atque facere quod debitis possimus consequatur aliquam in quidem expedita, recusandae quo corrupti velit eos. Cum quaerat, modi est harum, accusamus ex aspernatur at rem labore, nesciunt voluptatum distinctio. Molestias aut excepturi tenetur reiciendis soluta rem pariatur?</P>
+    </div>
+
+    
+</body>
+</html>
